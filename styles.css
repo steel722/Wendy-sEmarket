@@ -92,3 +92,65 @@ footer {
 .social-icon:hover {
     color: #e4405f; /* Color del icono al pasar el mouse (color típico de Instagram) */
 }
+#ofertas {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+#ofertas h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#ofertas p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.ofertas-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.oferta-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: left;
+    padding: 20px;
+}
+
+.oferta-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.oferta-card h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.oferta-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
